@@ -1,11 +1,12 @@
-//hakkında controller metodu
-//index.js dosyasındaki router.get('/',ctrlDigerleri.hakkinda);
-//ile motot url'ye bağlanıyor
-const hakkinda=function(req, res) {
-  res.render('hakkinda', { title: 'Hakkında' });
+const hakkinda = function(req, res, next) {
+  res.render('hakkinda', 
+    { 
+      title: 'Hakkında',
+      'footer' : 'Gülşah IRK 2020'
+    }
+  );
 }
 
-module.exports={
-    hakkinda
+module.exports = {
+  hakkinda
 }
-
