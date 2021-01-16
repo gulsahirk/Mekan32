@@ -5,8 +5,8 @@ var request = require('postman-request');
 var footer = "Gülşah Irk 2021"
 
 var apiSecenekleri = {
- sunucu:"http://gulsahirk1811012097.herokuapp.com",
-  //sunucu: "http://localhost:3000",
+  sunucu:"http://gulsahirk1811012097.herokuapp.com",
+ // sunucu: "http://localhost:3001",
   apiYolu: "/api/mekanlar/"
 }
 var istekSecenekleri
