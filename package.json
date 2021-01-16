@@ -17,7 +17,8 @@
     "mongoose": "^5.11.11",
     "morgan": "~1.9.1",
     "nodemon": "^2.0.6",
+    "postman-request": "^2.88.1-postman.28",
     "pug": "^3.0.0",
-    "serve-favicon": "^2.5.0"
+    "serve-favicon": "latest"
   }
 }
